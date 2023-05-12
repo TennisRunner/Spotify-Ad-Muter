@@ -17,7 +17,7 @@ $(document).ready(function()
 			if($(`[data-testid="context-item-info-ad-title"]`).length > 0)
 			{
 				if($(`#volume-icon`).attr("aria-label") != "Volume off")
-        {					
+				{					
 					setIt = true;
 					$(`#volume-icon`).parent()[0].click();
 				}
